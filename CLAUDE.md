@@ -40,7 +40,10 @@ hal_control/
   phases.py       # focus / twin / vortex / off, discretize()
   protocol.py     # frame building (pure functions, no I/O)
   serial_link.py  # SerialLink + MockLink (records frames), throttled sender thread
+  cli.py          # hardware test CLI (off/on/focus/twin/vortex)
   field.py        # pressure on a slice, image-source reflector, optional Gor'kov
+  trap.py         # Output (off/on/trap) + Trap dataclass -> phases/codes
+  export.py       # phases CSV, hand-written slice SVG (Inkscape-friendly)
   app.py          # PySide6 GUI (pyqtgraph for slices)
   config.py       # gap, port, voltage note, last trap -> ~/.config/hal_control.json
 refs/             # READ-ONLY reference code (SonicSurface.py, hal_lev_sim.py, ultraino notes)
