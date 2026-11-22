@@ -7,7 +7,7 @@ name = "hal-control"
 version = "0.1.0"
 description = "Desktop control for a SonicSurface 16x16 ultrasonic phased array"
 requires-python = ">=3.10"
-dependencies = ["numpy", "pyserial"]
+dependencies = ["numpy", "pyserial", "PySide6", "pyqtgraph"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
