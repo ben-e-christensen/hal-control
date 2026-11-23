@@ -5,7 +5,7 @@ PySide6 GUI for the SonicSurface 16×16, 40 kHz phased array (one board facing d
 ## Run
 
 ```
-cd ~/hal-control
+cd ~/Desktop/hal-control
 .venv/bin/pytest -q                        # expect 143 passed
 .venv/bin/python -m hal_control --mock     # no hardware: pick "mock" in the port box, then Connect
 .venv/bin/python -m hal_control            # real board (/dev/ttyUSB0)
